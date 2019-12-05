@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ReverseExtension'
-  s.version          = '0.5.0'
+  s.version          = '0.5.1'
   s.summary          = 'UITableView extension that enabled to insert cell from bottom of tableView.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/marty-suzuki/ReverseExtension.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/marty_suzuki'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'ReverseExtension/*.{swift,h,m}'
 
@@ -38,5 +38,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'AFNetworking'
 end
